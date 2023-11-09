@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/layout"
+    android:orientation="vertical"
+    android:background="#878787"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnDark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:backgroundTint="@color/dark"
+        android:fontFamily="sans-serif-light"
+        android:text="Dark"
+        android:textColor="@color/white"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/btnWhite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/black"
+        android:fontFamily="sans-serif-light"
+        android:text="White"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/btnBlack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:backgroundTint="@color/black"
+        android:fontFamily="sans-serif-light"
+        android:text="Black"
+        android:textColor="@color/white"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/btnRed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:backgroundTint="@color/red"
+        android:fontFamily="sans-serif-light"
+        android:text="Red"
+        android:textColor="@color/white"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/btnBlue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:backgroundTint="@color/blue"
+        android:fontFamily="sans-serif-light"
+        android:text="Blue"
+        android:textColor="@color/white"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/btngreen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:backgroundTint="@color/green"
+        android:fontFamily="sans-serif-light"
+        android:text="Green"
+        android:textColor="@color/white"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/btnGray"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:backgroundTint="@color/gray"
+        android:fontFamily="sans-serif-light"
+        android:text="Gray"
+        android:textColor="@color/white"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/btnYellow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:backgroundTint="@color/yellow"
+        android:fontFamily="sans-serif-light"
+        android:text="Yellow"
+        android:textColor="@color/black"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/btnNaviBlue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:backgroundTint="@color/naviBlue"
+        android:fontFamily="sans-serif-light"
+        android:text="Navi Blue"
+        android:textColor="@color/white"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/btnSky"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:backgroundTint="@color/sky"
+        android:fontFamily="sans-serif-light"
+        android:text="Sky"
+        android:textColor="@color/white"
+        android:textSize="25sp" />
+
+</LinearLayout>
